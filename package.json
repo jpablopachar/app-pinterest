@@ -1,0 +1,41 @@
+{
+  "name": "app-pinterest",
+  "version": "1.0.0",
+  "description": "Clon de pinterest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpablopachar/app-pinterest.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Bootstrap",
+    "MongoDB"
+  ],
+  "author": "jpablopachar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpablopachar/app-pinterest/issues"
+  },
+  "homepage": "https://github.com/jpablopachar/app-pinterest#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "mongoose": "^5.4.10",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "timeago.js": "^4.0.0-beta.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
